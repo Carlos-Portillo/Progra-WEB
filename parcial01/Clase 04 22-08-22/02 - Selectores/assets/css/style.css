@@ -1,0 +1,64 @@
+p {
+    background: black;
+    color: white;
+}
+
+#unique-p { 
+    color: yellow;
+}
+
+.common-p {
+    padding: 8px 16px;
+    /* 8 = top y bottom
+       16 = left y right */
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+/* 
+    Atributos
+*/
+
+input {
+    display: block;
+}
+
+input[type="password"] {
+    color: crimson;
+}
+
+/* 
+    Pseudo Clases    
+*/
+
+button {
+    padding: 0.5rem 1rem;
+
+    background: white;
+    color: black;
+    border-radius: 0 0.5rem;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+/* 
+    Pseudo-Elementos
+*/
+
+li::marker {
+    content: "> ";
+}
+
+#custom-btn::before {
+    content: "B---->";
+}
+
+#custom-btn::after {
+    content: "<----A";
+}
+

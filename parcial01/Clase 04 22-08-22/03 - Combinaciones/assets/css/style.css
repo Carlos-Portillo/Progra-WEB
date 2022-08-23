@@ -1,0 +1,54 @@
+/* 
+    Anidados
+*/
+
+.common{
+    padding: 1rem;
+}
+
+p.common{
+    border: 1px solid crimson;
+}
+
+/* 
+    Descendiente
+*/
+
+section{
+    width: 25%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+section p {
+    font-family: monospace;
+}
+
+section h3 {
+    font-family: fantasy;
+    font-size: 1.5rem;
+}
+
+/* 
+    Hijo
+*/
+
+section>h3 {
+    color: crimson;
+}
+
+/* 
+    Hermanos directos
+*/
+
+h3+article {
+    border: 1px solid black;
+}
+
+/* 
+    Hermanos generales
+*/
+
+h3~article {
+    background: #eee;
+}
