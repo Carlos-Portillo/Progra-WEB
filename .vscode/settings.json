@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5501
+=======
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+>>>>>>> 8da1c7c4fc1d42d7e824be9ae1e94e0e8c55ba4d
 }

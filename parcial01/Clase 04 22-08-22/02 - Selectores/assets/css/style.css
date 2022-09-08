@@ -22,7 +22,7 @@ hr {
 */
 
 input {
-    display: block;
+    display: block;     /* Salto de linea */ 
 }
 
 input[type="password"] {
