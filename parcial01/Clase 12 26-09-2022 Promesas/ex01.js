@@ -1,5 +1,5 @@
 const promiseFunc = () => {
-    return new Promise((resolve, reject) => { /* Resolve y reject establece el mommento si la promesa se cumple o no */
+    return new Promise((resolve, reject) => { /* Resolve y reject establece el momento si la promesa se cumple o no */
 
     // Procesos largos
     setTimeout(() => {

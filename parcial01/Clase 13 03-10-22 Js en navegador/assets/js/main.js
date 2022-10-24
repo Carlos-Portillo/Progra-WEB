@@ -8,13 +8,13 @@ let data =[
 ];
 
 
-let titleElement = null;
+let titleElement        = null;
 
-let buttonElement = null;
-let buttonElements = null;
+let buttonElement       = null;
+let buttonElements      = null;
 
-let toggleSectBtn = null;
-let showModalBtn = null;
+let toggleSectBtn       = null;
+let showModalBtn        = null;
 
 let infoModal = null; //Section modal
 
@@ -54,7 +54,7 @@ const bindListeners = () => {
         const sections = document.querySelectorAll(".test-section");
 
         sections.forEach(section => {
-          section.classList.toggle("hidden");  
+          section.classList.toggle("hidden");  //Quita y pone clase
         })
     });
 
