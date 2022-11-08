@@ -4,7 +4,7 @@ const router = express.Router();
 // Importar los enrutadores
 const postRouter = require("./post.router");
 
-// Definir las rutasd
+// Definir las rutas
 router.use("/post", postRouter);
 
 
